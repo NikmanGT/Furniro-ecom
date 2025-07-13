@@ -1,0 +1,15 @@
+.main-breadcrumb-bg {
+  background-image: url("../../assets/images/Breadcrumb-bg.svg");
+  min-height: 320px;
+  background-size: cover;
+}
+
+.Breadcrumb-content-container {
+  font-family: "Poppins", sans-serif;
+}
+
+@media screen and (min-width: 992px) {
+  .Breadcrumb-text-upper h1 {
+    font-size: 3rem;
+  }
+}

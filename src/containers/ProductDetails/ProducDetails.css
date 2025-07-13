@@ -1,0 +1,131 @@
+@media screen and (max-width: 993px) {
+  .desktop-width {
+    display: none !important;
+  }
+}
+@media screen and (min-width :993px ) {
+    .responsive_width{
+        display: none !important;
+    }
+}
+.carouselImg{
+    background-color: #f9f1e7;
+   width: 100%;
+}
+.carousel-Icon{
+    color: black;
+}
+.productHeader {
+  background-color: #f9f1e7;
+  width: 100%;
+  /* height: 5rem; */
+}
+.sideImg {
+  background-color: #f9f1e7;
+  border-radius: 13%;
+  height: 6rem;
+  width: 6rem;
+}
+.product-Img {
+  flex-direction: column;
+}
+.sideBigSofaImg {
+  background-color: #f9f1e7;
+  border-radius: 2%;
+  height: 35rem;
+  width: 29rem;
+}
+.productFont,
+.relativeProducts {
+  font-family: Poppins;
+}
+.productPrice,
+.productReview,
+.productReview1,
+.productSize,
+.sofaDetails {
+  font-family: Poppins;
+  color: #9f9f9f;
+}
+.productPara {
+  font-family: Poppins;
+  color: #000000;
+}
+.size {
+  background-color: #f9f1e7;
+  border-radius: 5px;
+  height: 1.7rem;
+  width: 2rem;
+  text-align: center;
+  cursor: pointer;
+}
+.size:hover {
+  color: white;
+  background-color: rgb(184, 142, 47, 1);
+}
+.productSizeColor {
+  font-size: 2rem;
+}
+.number {
+  cursor: pointer;
+}
+.addProduct {
+  height: 2.5rem;
+  border: 2px solid #9f9f9f;
+  border-radius: 0.7em;
+  padding-left: 14px;
+  padding-right: 8px;
+}
+.addToCart {
+  border: 2px solid #000000;
+  border-radius: 0.7em;
+  cursor: pointer;
+  padding-left: 14px;
+  padding-right: 8px;
+}
+.compare {
+  border: 2px solid black;
+  border-radius: 0.7em;
+  cursor: pointer;
+  padding-left: 14px;
+  padding-right: 8px;
+}
+.number {
+  font-size: 1.5rem;
+}
+.icon {
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+.productText {
+  /* width: 58rem; */
+  text-align: justify;
+}
+.sofaSetImg {
+  background-color: #f9f1e7;
+}
+.btn-outline-yellow {
+  color: #b88e2f;
+}
+.OP-Show-more-button {
+  width: 245px;
+  height: 52px;
+  border: 2px solid rgb(184, 142, 47, 1);
+  background-color: white;
+  color: rgb(184, 142, 47, 1);
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  transition: 0.5s ease;
+}
+.OP-Show-more-button:hover {
+  color: white;
+  background-color: rgb(184, 142, 47, 1);
+}
+.showBtn {
+  margin-bottom: 5rem !important;
+}
+.shop-add-to-cart{
+  z-index: 2;
+  right: 0;
+  top: 0;
+}

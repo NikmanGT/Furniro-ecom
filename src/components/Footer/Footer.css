@@ -1,0 +1,89 @@
+.main-container-footer {
+  border-top: 2px solid rgb(0, 0, 0, 0.11);
+}
+
+.main-container-footer p {
+  font-weight: 600;
+}
+
+.Subscribe-box {
+  border-bottom: 2px solid;
+  width: 82px;
+}
+
+.input-box {
+  width: 210px;
+  border-bottom: 2px solid black;
+}
+
+.form-input {
+  width: 198px;
+  border: 0px solid;
+  outline: none;
+}
+
+.form-input::placeholder {
+  color: #9f9f9f;
+}
+
+.footer-bottom {
+  border-top: 1px solid rgb(0, 0, 0, 0.17);
+  margin: 0 80px;
+}
+
+@media screen and (max-width: 992px) {
+  .footer-bottom {
+    margin: 0 80px;
+  }
+  .footer-bottom p {
+    font-size: 15px;
+    padding-left: 11px;
+  }
+
+  .footer-main-text {
+    margin-top: 20px;
+  }
+
+  .main-container-footer {
+    margin-left: 25px;
+  }
+
+  .column-middle-1,
+  .column-middle-2,
+  .footer-bottom {
+    margin-top: 20px;
+  }
+
+  .column-middle-1 p,
+  .column-middle-2 p {
+    line-height: 1;
+  }
+
+  .column-end {
+    margin-top: 30px;
+  }
+
+  .column-end-content {
+    margin-top: -8px;
+  }
+
+  .Subscribe-box {
+    padding-top: 10px;
+  }
+
+  .footer-bottom {
+    margin: 20 0px;
+    margin-left: -10px;
+    margin-right: 10px;
+  }
+}
+
+@media screen and (min-width: 993px) {
+  .footer-secondary-text {
+    width: 300px;
+  }
+
+  .column-end-content {
+    display: flex;
+  }
+}

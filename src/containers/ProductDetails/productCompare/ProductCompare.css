@@ -1,0 +1,210 @@
+.productComapreHeading{
+    font-family: Poppins;
+    color: black;
+}
+.viewMore{
+    font-family: Poppins;
+    color: #9f9f9f;
+    text-decoration: underline;
+}
+.sofaImg{
+    background-color: #f9f1e7;
+    /* width: 16rem; */
+    border-radius: 1rem;
+}
+.sofaImg2{
+    background-color: #f9f1e7;
+    width: 16rem;
+    border-radius: 1rem;
+    margin-top: -4rem;
+}
+.btn-primary{
+    color: white;
+    background-color: rgb(184, 142, 47, 1);
+    border: 2px solid rgb(184, 142, 47, 1) ;
+    border-radius: 0;
+    padding: 0.8rem;
+}
+.btn-primary:hover{
+    color: white;
+    background-color: rgb(184, 142, 47, 1);
+    border: 2px solid rgb(184, 142, 47, 1) ;
+}
+.review{
+    font-family: Poppins;
+    color: #9f9f9f;
+}
+.horizontalLine{
+    margin: auto;
+}
+.btn:first-child:active{
+    color: white;
+    background-color: rgb(184, 142, 47, 1);
+    border: 2px solid rgb(184, 142, 47, 1) ;
+}
+.general{
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 35.42px;
+    color: #000000;
+}
+.generalDetails{
+    font-weight: 400;
+    font-size: 18px;
+    font-family: Poppins;
+  line-height: 25.3px;
+  color: #000000;
+}
+.sofasDetails{
+    font-family: Poppins;
+    margin-top: 5.5rem ;
+    padding-left: 3rem;
+    font-weight: 400;
+    font-size: 18px;
+    font-family: Poppins;
+  line-height: 25.3px;
+  color: #000000;
+}
+
+.productOneColumn,.productTColumn,.productThColumn{
+    border-right: 1px solid #ece7e7 ;
+}
+.productOneColumn{
+    height: fit-content;
+}
+.column2Mid,.column3Mid{
+    margin-top: 7.5rem;
+    padding-left: 3rem;
+    font-weight: 400;
+    font-size: 18px;
+    font-family: Poppins;
+  line-height: 25.3px;
+  color: #000000;
+}
+.column2Mid2,.column3Mid2{
+    margin-top: 8rem;
+    padding-left: 3rem;
+    font-weight: 400;
+    font-size: 18px;
+    font-family: Poppins;
+  line-height: 25.3px;
+  color: #000000;
+}
+.column2Bottom,.column3Bottom{
+    /* margin-top: 17rem;
+    padding: 1.5rem !important */
+    margin-top: 7.5rem;
+    padding-left: 3rem;
+    font-weight: 400;
+    font-size: 18px;
+    font-family: Poppins;
+  line-height: 25.3px;
+  color: #000000;
+}
+.warranty{
+    margin-bottom: 5rem !important;
+}
+.WarrantyService{
+    margin-bottom: 6rem !important;
+}
+.CoveredWarranty{
+    margin-bottom: 6.5rem;
+}
+.NotCovered{
+    margin-bottom: 8.8rem !important;
+
+}
+.DomesticWarranty{
+    margin-bottom: 6.4rem !important;
+
+}
+.year{
+    margin-bottom: 3.1rem !important;
+}
+.ThreeSeater{
+    margin-top: -1.5rem;
+}
+.warrantyOf{
+    margin-bottom: 3.9rem !important;
+
+}
+.months{
+    margin-bottom: 2.9rem;
+}
+.middileSection{
+    margin-bottom: 8rem;
+}
+.productComapreBottom{
+    background-color: 
+    #FAF3EA;
+    padding: 0rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    padding-right: 2rem;
+    padding-left: 3rem; 
+}
+.highquality{
+    font-size: 25px;
+    font-weight: 600;
+    font-family: Poppins;
+    line-height: 37.5px;
+}
+.trophyText{
+    font-size: 19px;
+    font-weight: 500;
+    font-family: Poppins;
+    line-height: 30px;
+    color: #898989;
+}
+
+.bottom{
+    padding: 0rem;
+}
+
+
+/* @media screen and (max-width:993px) {
+.middileSection{
+    display: none !important;
+
+}
+.productComparison{
+    display: none !important;
+
+}
+}
+@media screen and (min-width:993px) {
+.responsivePage{
+    display: none !important;
+
+}
+} */
+
+/* .scrollbarMenu{
+  overflow: auto;
+  white-space: nowrap;
+} */
+
+.scrollable-container {
+    overflow-x: auto;
+    padding: 20px 0;
+  }
+  
+  @media (max-width: 993px) {
+   
+    .scrollable-container .container {
+      flex-wrap: nowrap;
+      display: flex;
+    }
+    
+    .scrollable-container .row {
+      flex-wrap: nowrap;
+      display: flex;
+      flex-direction: row;
+    }
+  
+    .scrollable-container .col-3 {
+      min-width: 300px; 
+    }
+  }
+  

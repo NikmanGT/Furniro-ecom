@@ -1,0 +1,42 @@
+.Contactform-main-container {
+  font-family: "Poppins", sans-serif;
+}
+
+.Contactform-text-container h1 {
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+.Form-text h2 {
+  font-weight: 500;
+  font-size: 24px;
+}
+
+.Form-text p {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.Form-icon svg {
+  font-size: 25px;
+}
+
+.Contactform-main-container button {
+  width: 244px;
+  height: 50px;
+  border: 0px;
+  border-radius: 5px;
+  color: white;
+  background-color: rgb(184, 142, 47, 1);
+}
+.Contactform-main-container button:hover {
+  color: rgb(184, 142, 47, 1);
+  background-color: white;
+  border: 2px solid rgb(184, 142, 47, 1);
+}
+
+@media screen and (max-width: 992px) {
+  .Contactform-text-container h1 {
+    font-size: 2rem;
+  }
+}

@@ -1,0 +1,96 @@
+.proDuct,.subTotals{
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px
+}
+@media screen and (min-width:993px) {
+
+    .productStatus{
+        padding-left: 7rem;
+    }
+}
+@media screen and (max-width: 993px) {
+    .productForm{
+        margin-bottom: 2rem;
+    }
+}
+.sofa{
+    color:#9F9F9F;
+}
+.subTotal,.totals{
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px
+}
+.totalPrice{
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px ;
+    color: #B88E2F;
+}
+.productPara{
+    color:#9F9F9F;
+    font-family: Poppins;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 24px ;
+    text-align: justify;
+}
+.placeOrder{
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    padding: 0.6rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    border-radius: 0.8rem;
+}
+.placeOrder:hover{
+    color: white;
+    background-color: #B88E2F;
+    border: none;
+
+}
+.bankTransfer{
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+.directBank,.cash{
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #9F9F9F
+    ;
+}
+
+.inputBox{
+    line-height: 3rem;
+}
+.formLabel{
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}
+.formLabelSselect{
+    color: #9F9F9F;
+    line-height: 3rem;
+}
+.formLabelSselect:focus{
+    border: 2px solid #B88E2F !important;
+    box-shadow: none !important;
+    border-color:#B88E2F !important;
+}
+input:focus{
+    border: 2px solid #B88E2F !important;
+    box-shadow: none !important;
+    border-color:#B88E2F !important;
+}

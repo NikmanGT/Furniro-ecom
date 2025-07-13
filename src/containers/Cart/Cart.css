@@ -1,0 +1,101 @@
+.colOneHeader{
+    background-color: #FAF3EA;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    margin-bottom: 3rem;
+
+}
+.product,.price,.quantity,.subtotal,.total{
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}
+.sofaImg,.cartTotal{
+    background-color: #FAF3EA;
+
+}
+.sofaName,.sofaPrice{
+    color: #9F9F9F;
+}
+.sofaQuantity{
+    border: 2px solid #9F9F9F;
+    /* padding: 0.3rem; */
+    padding-left: 0.6rem;
+    padding-right: 0.6rem;
+    border-radius: 0.3rem;
+}
+.aboutSofaPrice{
+    column-gap: 68px;
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+.aboutSofa{
+    column-gap: 112px;
+}
+.btn-outline{
+    color: black;
+
+}
+.cartTotals{
+    color: #000000;
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+    margin-bottom: 3rem;
+    border: none;
+}
+.total{
+    margin-left: -2rem;
+
+}
+.checkOut{
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+}
+.checkOut:hover{
+    color:white ;
+    background-color: #B88E2F;
+    border: 1px solid #B88E2F;
+    padding: 1rem;
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
+    border-radius: 1rem;
+}
+@media screen and (max-width: 993px) {
+    .sofaQuantity{
+        border: 2px solid #9F9F9F;
+        height: 2rem;
+    }
+    .cartProduct{
+        display: none !important;
+    }
+    .cartPage{
+        margin-top: 1rem !important;
+    }
+}
+@media screen and (min-width: 993px) {
+.resonsiveCart{
+    display: none !important;
+
+}
+}
+.cart-addProduct {
+    border: 2px solid #9f9f9f;
+    width: fit-content;
+    border-radius: 7px;
+  }
+  .cart-number {
+    font-size: 1.2rem;
+    color: #9F9F9F;
+  }
+  .cart-add-number
+  {
+    font-size: 16px;
+  }

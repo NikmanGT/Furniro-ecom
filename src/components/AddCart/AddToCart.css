@@ -1,0 +1,57 @@
+.shopping-cart{
+    font-weight: 600;
+    font-size: 24px;
+    font-family: Poppins;
+    line-height: 36px;
+}
+
+.addToCart-card{
+        /* width: fit-content; */
+        width: 100%;
+}
+
+@media screen and (max-width: 992px) {
+    .addToCart-card{
+    margin-right: 24.5rem;
+    width: 96%;
+    position: fixed;
+    }
+}
+
+.cartPrice{
+    color: #B88E2F
+    ;
+}
+.addCartText{
+    font-weight: 400;
+    font-size: 16px;
+    font-family: Poppins;
+    line-height: 24px;
+}
+.addTocartSuubtotal{
+    font-weight: 600;
+    font-size: 16px;
+    font-family: Poppins;
+    line-height: 24px;
+    color: #B88E2F;
+    margin-left: 6rem;
+}
+.addToCartBtn
+{
+border-radius: 19px;
+padding-left: 2rem;
+padding-right: 2rem;
+font-weight: 400;
+font-size: 12px;
+font-family: Poppins;
+line-height: 18px;
+}
+.addToCartBtn :hover{
+    color: white;
+    background-color: #B88E2F;
+    border: none;
+}
+.addTocartShopping{
+    
+    margin-bottom: 11rem;
+}

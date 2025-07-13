@@ -1,0 +1,79 @@
+.Share-card-main-container {
+  font-family: "Poppins", sans-serif;
+  padding-top: 40px;
+  height: 115vh;
+}
+
+.Share-card-image-div {
+  height: 80vh;
+}
+
+.Share-card-text-container p {
+  font-size: 20px;
+  color: rgba(97, 97, 97, 1);
+  font-weight: 600;
+}
+
+.Share-card-text-container h1 {
+  margin-top: -14px;
+  font-weight: 700;
+  font-size: 40px;
+}
+
+/* Image-styling */
+.Top-left-rack,
+.Top-right-Dining-table-with-jug {
+  top: -3%;
+}
+.Right-Bed {
+  top: 11%;
+  left: 61%;
+}
+.Right-Vase-and-frame {
+  left: 61%;
+  top: 71%;
+}
+.Right-kitchen-utensils {
+  right: 8%;
+  top: 71%;
+}
+.Left-chair {
+  top: 63%;
+}
+.Camera-and-jug {
+  left: 14%;
+  top: 63%;
+}
+
+.Left-laptop-toaster {
+  top: 52px;
+  left: 92px;
+}
+.Center-Dining-table-with-room {
+  top: 22%;
+  left: 39%;
+}
+
+@media screen and (max-width: 992px) {
+  .Share-card-text-container p {
+    font-size: 18px;
+  }
+  .Share-card-text-container h1 {
+    font-size: 28px;
+  }
+
+  .carousel-inner img {
+    margin-top: 5%;
+    max-height: 80vh;
+    max-width: 50vh;
+  }
+
+  .Share-card-main-container {
+    max-height: 65vh;
+  }
+
+  .Share-card-Carousel-indicator {
+    margin-top: 10px;
+    position: static;
+  }
+}

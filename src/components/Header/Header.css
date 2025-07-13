@@ -1,0 +1,46 @@
+.navbar-brand span {
+  font-size: 42px;
+}
+
+.navbar-expand-lg {
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 2;
+}
+
+.active {
+  color: aquamarine;
+}
+
+@media screen and (max-width: 992px) {
+  .navbar-brand span {
+    font-size: 30px;
+  }
+
+  .logo-img {
+    max-height: 30px;
+    margin-top: 1px;
+  }
+
+  .navbar-toggler {
+    margin-top: 10px;
+    border: 1px solid black;
+  }
+  .navbar-collapse .nav-link {
+    text-align: center;
+  }
+}
+
+.nav-mobile-icon-1 {
+  margin-right: 110px;
+  margin-top: 26px;
+}
+
+.nav-mobile-icon-2 {
+  margin-right: 80px;
+  margin-top: 26px;
+}
+
+/* @media screen and (min-width: 993px) {
+} */

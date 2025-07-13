@@ -1,0 +1,15 @@
+.AssuranceCard-main-container {
+  font-family: "Poppins", sans-serif;
+  background-color: #faf3ea;
+}
+
+.Assurance-icon svg {
+  font-size: 4rem;
+  margin-right: 20px;
+}
+
+@media screen and (max-width: 992px) {
+  .AssuranceCard-main-container {
+    text-align: center;
+  }
+}

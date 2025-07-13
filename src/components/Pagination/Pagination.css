@@ -1,0 +1,16 @@
+.Pagination-container div {
+  height: 60px;
+  width: 60px;
+  border-radius: 10px;
+  background-color: #f9f1e7;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 992px) {
+  .Pagination-container div {
+    height: 50px;
+    width: 50px;
+  }
+}

@@ -1,0 +1,175 @@
+.admin,.date,.wood{
+    color: #9F9F9F ;
+}
+.text{
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 45px;
+    /* margin-left: 6rem !important; */
+}
+.paragraph{
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25.5px;
+    text-align: justify;
+    color: #9F9F9F ;
+    /* padding-right: 2.1rem; */
+}
+.readMore span {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 10px; 
+    text-decoration: underline;
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: justify;
+
+  }
+  .nextBtn{
+    color: black;
+    background-color: #F9F1E7;
+    padding-left: 1.3rem;
+    padding-right: 1.3rem;
+    /* padding: 0.5rem; */
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+  }
+  .nextButton{
+    padding-right: 2.1rem;
+
+  }
+  .nextBtnfirst{
+    color: white;
+    background-color: rgb(184, 142, 47, 1) ;
+    /* padding: 0.8rem !important; */
+    padding-left: 1.3rem;
+    padding-right: 1.3rem;
+    /* padding: 0.5rem; */
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+  }
+  .nextBtnfirst:hover{
+    color: white;
+    background-color: rgb(184, 142, 47, 1) ;
+  }
+  .nextBtn:hover{
+    color: black;
+    background-color: #F9F1E7;
+  }
+  .category{
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+  }
+  .craftCategories,.designCategories,.handmadecategory,.InteriorCategories,.woodCategories{
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #9F9F9F ;
+  }
+.craftCategories{
+    column-gap: 21rem;
+
+}
+.designCategories{
+    column-gap: 20.7rem;
+}
+.handmadecategory{
+    column-gap: 18.7rem;
+
+}
+.InteriorCategories{
+    column-gap: 21.1rem;
+}
+.woodCategories{
+    column-gap: 21.7rem;
+
+}
+  .allCategory{
+    row-gap: 4rem;
+  }
+ .sideDate{
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #9F9F9F ;
+ }
+ .aboutPost{
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+ }
+ .recentPosts{
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+ }
+ .productImg{
+    object-fit: cover;
+    width: -webkit-fill-available;
+
+ }
+ @media screen and (max-width:993px) {
+    .posts{
+        display: none !important;
+    } 
+    .categoryList{
+        display: none !important;
+    }
+    .blog
+    {
+        flex-direction: column-reverse;
+    }
+    .paragraph{
+        padding-right: 0;
+    }
+    .craftCategories{
+        column-gap: 17rem;
+    
+    }
+    .designCategories{
+        column-gap: 16.6rem;
+    }
+    .handmadecategory{
+        column-gap: 14.4rem;
+    
+    }
+    .InteriorCategories{
+        column-gap: 16.7rem;
+    }
+    .woodCategories{
+        column-gap: 17.1rem;
+    
+    }
+    .selectList{
+        column-gap: 11rem;
+    }
+    .closeBtn{
+      color: black;
+      background-color: #F9F1E7;
+      border: none;
+      border-color:#F9F1E7 ;
+    }
+    .closeBtn:hover{
+      color: white;
+      background-color: rgb(184, 142, 47, 1);
+      border: none;
+      border-color: rgb(184, 142, 47, 1);
+    }
+ }
+
+ @media screen and (min-width:993px) {
+
+ .selectCategory{
+    display: none !important;
+ }
+}

@@ -1,0 +1,142 @@
+.basic-card-main-container {
+  font-family: "Poppins", sans-serif;
+}
+.basic-card {
+  height: 100%;
+  width: 100%;
+  border: 0;
+}
+.basic-card img {
+  border-radius: 0;
+}
+
+.basic-card-body h3 {
+  font-size: 26px;
+  font-weight: 600;
+}
+.basic-card-body p {
+  font-weight: 500;
+}
+
+.basic-card-secondary-text h4 {
+  font-size: 20px;
+  font-weight: 600;
+}
+@media screen and (min-width:992px){
+  .shop-responsive-cart-details{
+  display: none !important; 
+  }
+  .hoverBtn-responsive{
+    display: none !important;
+  }
+}
+
+  
+
+@media screen and (max-width: 992px) {
+  .basic-card {
+    width: 90%;
+    margin-left: 4%;
+  }
+  .basic-card-body {
+    height: 14vh;
+  }
+
+  .basic-card-body h3 {
+    margin-top: -6%;
+    font-size: 1.1rem;
+  }
+  .basic-card-body p {
+    margin-top: -4%;
+    font-size: 0.8rem;
+  }
+
+  .basic-card-secondary-text h4 {
+    font-size: 0.8rem;
+    margin-top: -9%;
+  }
+
+  .basic-card img {
+    width: 100%;
+  }
+  .shop-cart-details{
+    display: none !important;
+  }
+  .hoverBtn-responsive {
+    margin: 5px 0;
+    color: rgb(184, 142, 47, 1);
+    background-color: #F9F1E7;
+    border: none; 
+     cursor: pointer;
+
+  }
+  .hoverBtn{
+    display: none !important;
+  }
+}
+.basic-card-hover{
+  /* background-color: #3a3a3a;
+  color: white;
+  opacity: 0; */
+  z-index: 9999;
+} 
+.basic-card-hover {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #3a3a3a;
+  color: white;
+  opacity: 0.9;
+  transition: 0.5s;
+}
+.shop-card-hover:hover{
+  cursor: pointer;
+}
+.shop-card-hover:hover .basic-card-hover {
+  opacity: 0.9;
+  cursor: pointer;
+
+}
+
+.hoverBtn{
+  margin: 5px 0;
+  color: rgb(184, 142, 47, 1);
+  background-color: #F9F1E7;
+  border: none; 
+   cursor: pointer;
+  padding-right: 3rem;
+  padding-left: 3rem;
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+  border-radius: 0;
+}
+
+.hoverBtn:hover {
+  color: white;
+  background-color: rgb(184, 142, 47, 1) ;
+
+}
+.cart-compare{
+  cursor: pointer;
+}
+
+.basic-card {
+  position: relative;
+}
+
+.basic-card img {
+  width: 100%;
+  height: auto;
+}
+/* .hoverBtn{
+  color: rgb(184, 142, 47, 1);
+  background-color: #F9F1E7;
+  border: none;
+}
+.hoverBtn:hover{
+  color: white;
+  background-color: rgb(184, 142, 47, 1) ;
+} */

@@ -1,0 +1,38 @@
+
+.productComapreBottom{
+    background-color: 
+    #FAF3EA;
+    padding: 0rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    padding-right: 2rem;
+    padding-left: 3rem; 
+}
+.highquality{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: Poppins;
+    line-height: 37.5px;
+}
+.trophyText{
+    font-size: 17   px;
+    font-weight: 500;
+    font-family: Poppins;
+    line-height: 30px;
+    color: #898989;
+}
+
+.bottom{
+    padding: 0rem;
+}
+
+.cartFooter{
+    display: flex;
+    row-gap: 2rem !important;
+}
+@media screen and  (max-width: 993px){
+    .productComapreBottom{
+        padding-top: 2rem !important;
+        padding-bottom: 2rem !important;
+    }
+} 

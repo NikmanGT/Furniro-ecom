@@ -1,0 +1,80 @@
+.img-text-container {
+  background-color: rgb(255, 243, 227, 1);
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  right: 0;
+  position: absolute;
+  bottom: 10%;
+  border-radius: 10px;
+  right: 4%;
+}
+
+.decor-img {
+  background: url(../../../assets/images/scandinavian-interior-mockup-wall-decal-background.svg);
+  background-size: cover;
+  height: 800px;
+  background-attachment: fixed;
+}
+
+.main-text-upper h1 {
+  color: rgb(184, 142, 47, 1);
+  font-size: 55px;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+}
+
+.main-text-upper h6 {
+  font-size: 18px;
+}
+.main-text-upper h5 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.Buy-Now {
+  background-color: rgb(184, 142, 47, 1);
+  position: absolute;
+  bottom: 0;
+}
+
+@media screen and (max-width: 992px) {
+  .decor-img {
+    height: 600px;
+    background-position: center;
+  }
+
+  .img-text-container {
+    padding: 34px;
+    padding-top: 40px;
+    max-width: 90%;
+    margin-right: 1%;
+    top: 10rem;
+    max-height: 48vh;
+    border-radius: 10px;
+  }
+
+  .main-text-upper h6 {
+    font-size: 16px;
+  }
+
+  .main-text-upper h5 {
+    padding-top: 8px;
+    font-size: 1rem;
+    padding-right: 20px;
+  }
+
+  .main-text-upper h1 {
+    font-size: 34px;
+  }
+
+  .Buy-Now {
+    bottom: 20px;
+    max-height: 50px;
+    max-width: 50%;
+  }
+
+  .Buy-Now p {
+    padding-top: 15px;
+    font-size: 14px;
+  }
+}

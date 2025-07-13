@@ -1,0 +1,89 @@
+.Inspiration-main-container {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  height: 90vh;
+  font-family: "Poppins", sans-serif;
+  background-color: #fcf8f3;
+}
+
+.Inspiration-card-column-1 {
+  height: 90vh;
+}
+
+.Inspiration-card-Main-text h1 {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.Inspiration-card-Main-text p {
+  font-size: 16px;
+  font-weight: 500;
+  color: rgba(97, 97, 97, 1);
+}
+
+.Explore-more-button button {
+  border: 0;
+  height: 6vh;
+  width: 24vh;
+  background-color: rgb(184, 142, 47, 1);
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  transition: 0.3s ease;
+}
+
+.Explore-more-button button:hover {
+  background-color: white;
+  color: rgb(184, 142, 47, 1);
+  border: 1px solid rgb(184, 142, 47, 1);
+}
+
+/* Carousel next button */
+
+.caraousel-slide button {
+  position: absolute;
+  background-color: white;
+  height: 48px;
+  width: 48px;
+  border-radius: 50%;
+  right: 6%;
+  top: 50%;
+  border: 1px solid black;
+}
+
+.Inspi-first-image {
+  max-height: 486px;
+}
+
+/* .Inspiration-carousel-container {
+  margin-left: 40%;
+} */
+
+@media screen and (max-width: 992px) {
+  .Inspiration-card-column-1 {
+    height: 40vh;
+  }
+  .Inspiration-card-Main-text h1 {
+    padding-top: 30px;
+    font-size: 28px;
+    text-align: center;
+  }
+  .Inspiration-card-Main-text p {
+    padding-top: 10px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    color: rgba(97, 97, 97, 1);
+  }
+
+  .Explore-more-button button {
+    height: 6vh;
+    width: 24vh;
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .Explore-more-button {
+    display: flex;
+    justify-content: center;
+  }
+}
