@@ -1,3 +1,10 @@
+# 🛒 Furniro-Ecommerce UI
+
+Furniro is an e-commerce website for furniture built using Reactjs, Nodejs(Expressjs), and backend is supported by MongoDB. Features include product
+display, cart functionality, and a customized navbar, styled together with Bootstrap. User authentication
+is implemented with Firebase for Google login.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
